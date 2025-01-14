@@ -1,0 +1,92 @@
+.cart_header {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.line {
+  margin-top: -20px;
+  width: 300px;
+  height: 60px;
+  margin-left: 41%;
+}
+
+#cartPage {
+  display: flex;
+  justify-content: space-between;
+}
+
+#cartContainer {
+  width: 70%;
+  padding-top: 5px;
+}
+
+.removebtn {
+  position: absolute;
+  bottom: 75%;
+  right: 1%;
+}
+
+.numberofitem {
+  border: 1px solid gray;
+  border-radius: 15px;
+  width: 80px;
+  padding: 5px;
+}
+
+.plus {
+  border: none;
+  background-color: white;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.minus {
+  border: none;
+  background-color: white;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/* right part */
+#rightdiv {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  width: 25%;
+  margin-top: 20px;
+  padding: 20px;
+  height: 300px;
+  background-color: white;
+  position: sticky;
+  top: 20px;
+  display: inline-block;
+}
+
+#checkoutbtn {
+  padding: 10px;
+  border-radius: 20px;
+  background-color: rgb(96, 96, 214);
+  color: white;
+  border: none;
+  width: 100%;
+}
+
+
+.empty_cart{
+  padding: 80px 0;
+ margin: auto;
+width: 500px;
+height: auto;
+/* border: 2px solid #6b0a64; */
+text-align: center;
+}
+.Explore{
+  margin-top: 50px;
+  padding: 10px 14px;
+  background-color: #6b0a64;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.2s
+}

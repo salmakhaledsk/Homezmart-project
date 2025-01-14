@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../Styles/CategoryPage.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+    <title>Document</title>
+  </head>
+  <header>
+    <nav>
+      <div>
+        <img
+          src="../Resources/convenience-store.png"
+          alt=""
+          srcset=""
+          style="width: 20px; height: 20px; margin-right: 5px"
+        />
+
+        <a href="#" style="font-size: 25px; color: white" onclick="returnHome()"
+          >HomeZmart</a
+        >
+      </div>
+      <div class="search-container">
+        <i class="uil uil-search"></i>
+        <input type="text" class="searchinput" placeholder="Search ..." />
+      </div>
+
+      <div class="Login">
+        <a href="Wishlist.html">
+        <button type="button"><i class="uil uil-heart"></i> My Items</button></a>
+
+        <button type="button">
+          <a href="cart.html">
+            <i class="uil uil-shopping-cart-alt">
+              <sup id="cartCounter">0</sup>
+              My Cart</i> </a>
+        </button>
+        <button type="button" class="logout" onclick="logout()">
+          <i class="uil uil-user"></i> Logout
+        </button>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <body>
+      <div class="Slider">
+        <img src="../Resources/1.jpg" id="img" />
+      </div>
+    </body>
+  </main>
+  
+  <script src="../Js/CategoryPage.js"></script>
+</html>

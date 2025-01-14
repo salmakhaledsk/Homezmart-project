@@ -1,0 +1,101 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.wishlist-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* المسافة بين المنتجات */
+    justify-content: center; /* ضبط المحاذاة في المنتصف */
+    padding: 20px;
+  }
+  
+  /* Wishlist Product Card */
+  .wishlist-product-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    width: 200px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    transition: transform 0.2s;
+  }
+  
+  .wishlist-product-card:hover {
+    transform: scale(1.01); /* تأثير عند التمرير */
+  }
+  
+  .wishlist-product-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .wishlist-product-card h2 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .wishlist-product-card p {
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #555;
+    text-align: center;
+  }
+  
+  .wishlist-product-card .remove-button {
+    margin-top: 10px;
+    padding: 8px 12px;
+    background-color: #6b0a64;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.2s;
+  }
+  
+  .wishlist-product-card .remove-button:hover {
+   
+    background-color: #9510a2;
+  }
+  
+
+  .wishlist_header{
+text-align: center;
+margin-top: 50px;
+  }
+
+  .empty_wishlist{
+    padding: 80px 0;
+   margin: auto;
+width: 500px;
+height: auto;
+/* border: 2px solid #6b0a64; */
+text-align: center;
+  }
+  .Explore{
+    margin-top: 50px;
+    padding: 10px 14px;
+    background-color: #6b0a64;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.2s;
+    
+  }
+  .line{
+    margin-top: -20px;
+    width: 300px;
+    height: 60px;
+margin-left: 41%;
+  }

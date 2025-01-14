@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../Styles/SignUp.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+    <title>Signup</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div>
+          <img
+            src="../Resources/convenience-store.png"
+            alt=""
+            srcset=""
+            style="width: 20px; height: 20px; margin-right: 5px"
+          />
+
+          <a href="#" style="font-size: 25px">HomeZmart</a>
+        </div>
+
+        <div>
+          <!-- <button type="button">
+            <i class="uil uil-shopping-cart"></i>Explore Products
+          </button> -->
+          <button type="button"><i class="uil uil-user"></i>Login</button>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Login From -->
+    <h1>Create New Account</h1>
+    <div class="form">
+      <form action="#" class="signup_form" id="signupForm">
+        <h2>Sign Up</h2>
+        <div class="input_box">
+          <i class="uil uil-user"></i>
+          <input type="text" id="firstName" placeholder="First Name" required />
+        </div>
+        <div class="input_box">
+          <i class="uil uil-user"></i>
+          <input type="text" id="lastName" placeholder="Last Name" required />
+        </div>
+        <div class="input_box">
+          <i class="uil uil-phone"></i>
+          <input
+            type="text"
+            id="phoneNumber"
+            placeholder="Phone Number"
+            required
+          />
+        </div>
+        <div class="input_box">
+          <i class="uil uil-envelope"></i>
+          <input type="email" id="email" placeholder="Email Address" required />
+        </div>
+        <div class="input_box">
+          <i class="uil uil-eye"></i>
+          <input
+            type="password"
+            id="password"
+            placeholder="Password"
+            required
+          />
+        </div>
+        <div class="option_field">
+          <span class="checkbox">
+            <input type="checkbox" id="check" />
+            <label for="check">Remember me</label>
+          </span>
+        </div>
+        <button style="align-self: center" class="button">Login</button>
+        <div class="login_signup">
+          Already have an account?
+          <a href="index.html" id="login">Login</a>
+        </div>
+      </form>
+      <div>
+        <h2>Or Create Account Using</h2>
+        <div class="social-buttons">
+          <button class="social-button facebook">
+            <i class="fab fa-facebook-f"></i>
+            Facebook
+          </button>
+          <button class="social-button google">
+            <i class="fab fa-google"></i>
+            Google
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="../Js/SignUp.js"></script>
+</html>

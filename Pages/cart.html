@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../Styles/cart.css" />
+    <title>Cart</title>
+  </head>
+  <body style="background-color: rgba(178, 176, 174, 0.108)">
+    <h1 class="cart_header">Cart</h1>
+    <img class="line" src="../Resources/line_marker23-512.webp" />
+    <div id="cartPage">
+      <!-- Left Side -->
+      <div id="cartContainer"></div>
+
+      <!-- Right Side -->
+      <span id="rightdiv">
+         <a href="./Payment.html">
+        <button id="checkoutbtn">Continue to Checkout</button>
+      </a>
+        <div
+          style="display: flex; justify-content: space-between; padding: 20px"
+        >
+          <span style="font-weight: bold; font-size: larger">Subtotal</span>
+          <span id="subtotal" style="font-weight: bold; font-size: larger"
+            >$0</span
+          >
+        </div>
+        <hr />
+        <div
+          style="display: flex; justify-content: space-between; padding: 20px"
+        >
+          <span style="font-size: larger">Shipping</span>
+          <span style="color: green; font-size: larger">Free</span>
+        </div>
+        <div
+          style="display: flex; justify-content: space-between; padding: 20px"
+        >
+          <span style="font-weight: bold; font-size: larger">Taxes</span>
+          <span style="font-size: large">Calculated at checkout</span>
+        </div>
+      </span>
+    </div>
+
+    <script src="../Js/cart.js"></script>
+  </body>
+</html>

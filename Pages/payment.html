@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../Styles/Payment.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Shipping Address</h2>
+
+      <label for="fname">First Name:</label>
+      <input type="text" id="fname" name="fname" required />
+
+      <label for="lname">Last Name:</label>
+      <input type="text" id="lname" name="lname" required />
+
+      <label for="country">Country/Region:</label>
+      <select id="country" name="country" required>
+        <option value="">Select Country</option>
+        <option value="Egypt">Egypt</option>
+        <option value="USA">USA</option>
+        <option value="UK">UK</option>
+      </select>
+
+      <label for="street">Street Address:</label>
+      <input type="text" id="street" name="street" required />
+
+      <label for="apt">Apartment</label>
+      <input type="text" id="apt" name="apt" />
+
+      <label for="city">Town/City:</label>
+      <input type="text" id="city" name="city" required />
+
+      <label for="state">State/County:</label>
+      <select id="state" name="state" required>
+        <option value="">Select State/County</option>
+        <option value="Cairo">Cairo</option>
+        <option value="Giza">Giza</option>
+        <option value="Alexandria">Alexandria</option>
+      </select>
+
+      <label for="postcode">Postcode/ZIP:</label>
+      <input type="text" id="postcode" name="postcode" required />
+
+      <label for="phone">Phone </label>
+      <input type="text" id="phone" name="phone" />
+
+      <h2>SHIPPING OPTIONS</h2>
+
+      <div class="option-group">
+        <label for="shipping1">
+          <input type="radio" id="shipping1" name="shipping" checked />
+          Free shipping
+        </label>
+        <p>FREE</p>
+      </div>
+
+      <h2>PAYMENT OPTIONS</h2>
+
+      <div class="option-group">
+        <label for="payment1">
+          <input type="radio" id="payment1" name="payment" checked />
+          Cash on delivery
+        </label>
+        <p>Pay with cash upon delivery.</p>
+      </div>
+
+      <div class="option-group">
+        <label for="payment2">
+          <input type="radio" id="payment2" name="payment" />
+          <a href="./PaymentMethod.html">Other</a>
+        </label>
+        <a href="./PaymentMethod.html"
+          ><button class="PlaceOrder">Place Order</button></a
+        >
+      </div>
+    </div>
+  </body>
+</html>

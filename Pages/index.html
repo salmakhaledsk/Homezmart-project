@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../Styles/Login.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+    <title>Login Page</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div>
+          <img
+            src="../Resources/convenience-store.png"
+            alt=""
+            srcset=""
+            style="width: 20px; height: 20px; margin-right: 5px"
+          />
+
+          <a href="#" style="font-size: 25px">HomeZmart</a>
+        </div>
+        <ul class="nav_items">
+          <li>
+            <i class="uil uil-estate"></i>
+            <a href="HomePage.html">Home</a>
+          </li>
+          <li>
+            <i class="uil uil-info-circle"></i>
+            <a href="AboutUs.html">About</a>
+          </li>
+          <li>
+            <span>
+              <i class="uil uil-shopping-cart"></i>
+              <a href="HomePage.html">Products</a></span
+            >
+          </li>
+          <li>
+            <i class="uil uil-envelope"></i>
+            <a href="ContactUs.html">Contact Us</a>
+          </li>
+        </ul>
+        <div>
+          <button type="button">
+            <i class="uil uil-user-plus"></i>
+            Sign Up
+          </button>
+        </div>
+      </nav>
+    </header>
+    <!-- Login From -->
+    <h1>Welcome To HomeZmart</h1>
+    <div class="form">
+      <form action="#" class="login_form" id="loginForm">
+        <h2>Login with your Email</h2>
+        <div class="input_box">
+          <i class="uil uil-envelope"></i>
+          <input
+            type="email"
+            id="loginEmail"
+            placeholder="Email Address"
+            required
+          />
+        </div>
+        <div class="input_box">
+          <i class="uil uil-eye"></i>
+          <input
+            type="password"
+            id="loginPassword"
+            placeholder="Password"
+            required
+          />
+        </div>
+        <div class="option_field">
+          <span class="checkbox">
+            <input type="checkbox" id="rememberMe" />
+            <label for="rememberMe">Remember me</label>
+          </span>
+          <a href="#" class="forgot_pw">Forgot password?</a>
+        </div>
+        <button type="submit" style="align-self: center" class="button">
+          Login
+        </button>
+        <div class="login_signup">
+          Don't have an account? <a href="SignUp.html" id="signup">Signup</a>
+        </div>
+      </form>
+      <div>
+        <h2>Or Sign In Using</h2>
+        <div class="social-buttons">
+          <button class="social-button facebook">
+            <i class="fab fa-facebook-f"></i>
+            Facebook
+          </button>
+          <button class="social-button google">
+            <i class="fab fa-google"></i>
+            Google
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="../Js/LoginPage.js"></script>
+</html>

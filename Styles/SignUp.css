@@ -1,0 +1,223 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+a {
+    color: #333;
+    /* Darker gray for links */
+    text-decoration: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+header {
+
+    height: 80px;
+    width: 100%;
+    z-index: 100;
+    padding: 10px 50px;
+}
+
+nav,
+.nav_items {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav_items li {
+    list-style: none;
+}
+
+.nav_items a {
+    margin-right: 25px;
+    color: #333;
+    /* Darker gray for nav text */
+}
+
+.nav_items li:hover a {
+    background-color: blue;
+    color: white;
+    /* Even lighter gray on hover */
+    border-radius: 3px;
+    padding: 5px 10px;
+}
+
+button {
+    padding: 6px 24px;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    font-size: 15px;
+    color: black;
+    background-color: white;
+    /* White text for button */
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+    background: blue;
+    color: white;
+}
+
+/* Login Form */
+.form {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 20px;
+    justify-content: start;
+    margin: 70px auto;
+    width: 80%;
+    padding: 30px;
+    border: 1px solid #ddd;
+    /* Lighter gray for border */
+    border-radius: 15px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    /* Lighter shadow */
+}
+
+h1 {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.form h2 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.signup_form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.signup_form {
+    border-right: 1px solid #ddd;
+    /* Lighter gray for border */
+    padding-right: 20px;
+}
+
+.input_box {
+    position: relative;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.input_box input[type="text"],
+.input_box input[type="email"],
+.input_box input[type="password"] {
+    border: none;
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+    width: 100%;
+    outline: none;
+}
+
+.input_box i {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 18px;
+    color: #777;
+}
+
+
+
+.option_field {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.option_field a {
+    color: blue;
+}
+
+.button {
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 10px;
+    padding: 10px 0;
+    border: none;
+    background-color: blue;
+    color: white;
+    /* White text for button */
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.login_signup {
+    text-align: center;
+    margin-top: 15px;
+
+}
+
+.login_signup a {
+    color: blue;
+
+}
+
+/* Login Form */
+
+/* Sign In Methods */
+
+.social-buttons {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    gap: 10px;
+}
+
+.social-button {
+    width: 100%;
+    padding: 10px 20px;
+    margin-block-end: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.facebook {
+    background-color: #1045b6;
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 20px;
+}
+
+.google {
+    background-color: #fff;
+    color: black;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+}
+
+.google i {
+    color: rgb(212, 83, 83);
+    /* Match Google logo color */
+}
+
+.social-button i {
+    margin-right: 5px;
+}
+
+footer {
+    background-color: blue;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}

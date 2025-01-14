@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Styles/Payment.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="main-container">
+        <h2 class="page-heading">Payment Details</h2>
+    
+        <div class="payment-section">
+            <div class="payment-row">
+                <label class="form-label" for="cardNumber">Credit Card Number:</label>
+                <input class="input-field" type="text" id="cardNumber" name="cardNumber" placeholder="XXXX XXXX XXXX XXXX" required>
+            </div>
+    
+            <div class="payment-row">
+                <label class="form-label" for="expiryDate">Expiry Date:</label>
+                <input class="input-field" type="number" id="expiryDate" name="expiryDate" placeholder="mm / yy" min="01" max="12" required>
+            </div>
+    
+            <div class="payment-row">
+                <label class="form-label" for="cvv">CVV:</label>
+                <input class="input-field" type="text" id="cvv" name="cvv" placeholder="XXX" required>
+            </div>
+    
+        </div>
+    
+        <div class="totals-section">
+            <div class="total-row">
+                <span>Total Amount:</span>
+                <span>$100</span>
+            </div>
+          <a href="../Pages/PaymentDone.html"> <button class="payment-button" type="submit">Confirm payment</button></a> 
+        </div>
+    </div>
+</body>
+</html>

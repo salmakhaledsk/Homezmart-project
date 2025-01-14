@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Page Demo</title>
+    <link rel="stylesheet" href="../Styles/ProductDetails.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <nav>
+        <div>
+          <img
+            src="../Resources/convenience-store.png"
+            alt=""
+            srcset=""
+            style="width: 20px; height: 20px; margin-right: 5px"
+          />
+          <a
+            href="#"
+            style="font-size: 25px; color: white"
+            onclick="returnHome()"
+            >HomeZmart</a
+          >
+        </div>
+        <div class="search-container">
+          <i class="uil uil-search"></i>
+          <input type="text" class="searchinput" placeholder="Search ..." />
+        </div>
+        <div class="Login">
+          <a href="Wishlist.html">
+            <button type="button"><i class="uil uil-heart"></i> My Items</button></a>
+
+          <button type="button" >
+            <a href="cart.html">
+            <i class="uil uil-shopping-cart-alt" style="color: aliceblue;">
+            <sup id="cartCounter">0</sup>My Cart</i></a>
+          </button>
+          <button type="button" class="logout" onclick="logout()">
+            <i class="uil uil-user"></i> Logout
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Main Content -->
+    <div class="Categories">
+      <div class="Categories-Buttons">
+        <button>
+          <i class="uil uil-apps" style="color: #002d58"></i>
+          Departement
+        </button>
+        <button>
+          <i class="uil uil-apps" style="color: #002d58"></i>
+          Services
+        </button>
+      </div>
+      <div class="Categories-Names">
+        <div class="category-links">
+          <a href="#">Grocery & Essentials</a>
+          <a href="#">Offers</a>
+          <a href="#">New & Trending</a>
+          <a href="#">Fashion</a>
+          <a href="#">Home</a>
+          <a href="#">Electronics</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Product Details Section -->
+    <div class="main-Details">
+      <div class="images-Section"></div>
+      <div class="product-details">
+        <h1 class="product-title"></h1>
+        <div class="product-rating">
+          <span class="stars"></span>
+          <span class="rating-value"></span>
+        </div>
+        <div class="product-description">
+          <h2>About This Item</h2>
+          <p></p>
+        </div>
+        <div class="product-specs">
+          <h2>Specifications</h2>
+          <ul></ul>
+        </div>
+      </div>
+      <div class="more-info">
+        <div class="pricing-info">
+          <div class="current-price">
+            <span class="price"></span>
+            <span class="oldPrice"></span>
+          </div>
+          <div class="savings">
+            <span class="save-text">You save</span>
+            <span class="save-amount"></span>
+          </div>
+        </div>
+        <ul></ul>
+        <div class="delivery-options">
+          <h3>How do you want your item?</h3>
+          <div class="options-grid"></div>
+        </div>
+        <br />
+        <p class="info"></p>
+        <div class="seller-info">
+          <p></p>
+          <p class="seller-rating">
+            <span class="stars"></span>
+            <span class="rating"></span>
+            <span class="reviews"></span>
+          </p>
+          <div class="actions">
+            <button class="wishlist-Button" id="addToWishlistButton">Add to Wishlist <i class="fa-solid fa-heart fav-button"></i>
+            </button>
+            <button>Add to registry</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Product Reviews Section -->
+    <div class="product-reviews"></div>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h3>About Us</h3>
+            <ul>
+              <li><a href="#">Our Story</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Press</a></li>
+            </ul>
+          </div>
+          <div class="col">
+            <h3>Customer Service</h3>
+            <ul>
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">FAQ</a></li>
+              <li><a href="#">Returns</a></li>
+            </ul>
+          </div>
+          <div class="col">
+            <h3>Legal</h3>
+            <ul>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Terms of Service</a></li>
+            </ul>
+          </div>
+          <div class="col">
+            <h3>Follow Us</h3>
+            <ul>
+              <li><a href="#">Facebook</a></li>
+              <li><a href="#">Twitter</a></li>
+              <li><a href="#">Instagram</a></li>
+            </ul>
+          </div>
+        </div>
+        <p class="copyright">&copy; 2024 MyStore. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="../Js/ProductDetails.js"></script>
+  </body>
+</html>
